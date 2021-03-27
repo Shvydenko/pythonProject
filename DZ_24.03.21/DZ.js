@@ -274,4 +274,8 @@
 // let lastname =prompt ('lastname', 'Shvydenko')
 // let age =prompt ('age', '27')
 // alert(`Доброго вечера ${name} ${lastname} , мои поздравления что Вам ${age}`)
-
+// або
+// let a = prompt('name')
+// let b = prompt('lastName')
+// let c = prompt('age')
+// console.log(`Доброго вечера ${a}  ${b} мои поздравления что Вам ${c}`)
