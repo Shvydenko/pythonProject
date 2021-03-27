@@ -279,3 +279,92 @@
 // let b = prompt('lastName')
 // let c = prompt('age')
 // console.log(`Доброго вечера ${a}  ${b} мои поздравления что Вам ${c}`)
+
+
+// Три різних числа вводяться через prompt().
+// За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+//
+// let a = + prompt('first','2')
+// let b = + prompt('second', '7')
+// let c = + prompt('third', '6')
+//
+// if (a < b && b > c)
+// {console.log(a,c,b)}
+// else (console.log('hi'))
+
+
+// let a =  + prompt('first');
+// let b =  + prompt('second');
+// let c =  + prompt('third');
+//
+// if (a < b && a < c && b < c )
+// {console.log(a,b,c)}
+// else if (a < b && a < c && c < b )
+// {console.log(a,c,b)}
+// else if (a < b && c < a && c < b )
+// {console.log(c,a,b)}
+// else if (b < a && b < c && a < c )
+// {console.log(b,a,c)}
+// else if (b < a && b < c && c < a )
+// {console.log(b,c,a)}
+// else if (b < a && b < c && c < a )
+// {console.log(b,c,a)}
+// else {console.log(c,b,a)}
+
+
+// Все параматры получаем с клавиатуры!!!!
+// Имитируем поведение пешехода на перекстке.
+// Если светофор зеленый - вывести "иди".
+// Если светофор желтый - вывести "подожди".
+// Если светофор красный - вывести "стой".
+// Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+// const TrafficLights = prompt('light')
+//
+// switch (TrafficLights) {
+//     case `red`:
+//         alert('стой');
+//         break
+//     case `yellow`:
+//         alert('подожди');
+//         break
+//     case `green`:
+//         alert('иди');
+//         break
+//     default:
+//         alert('делай что хочешь')
+// }
+
+
+
+// Все параметры получаем с клавиатуры!!!!(prompt , confirm)
+// Создать переменную isRoadClear которая характеризирует наличие на дороге машин.
+// Улучшаем предыдущее задание.
+// Если светофор зеленый и машин нет - вывести "иди".
+// Если светофор зеленый и машины есть  - вывести подожди пока нарушители проедут".
+// Если светофор желтый и машины есть - вывести "жди".
+// Если светофор желтый и машин нет - вывести "все рано жди".
+// Если светофор красный и машин нет- вывести "стой все рано".
+// Если светофор красный - и машины есть вывести "стой и жди".
+// Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+// let TrafficLights = prompt('light');
+// isRoadClear = confirm('Clear')
+//
+// if (TrafficLights === 'green' && isRoadClear === true)
+// {console.log('иди')}
+// else if (TrafficLights === 'green' && isRoadClear === false)
+// {console.log('подожди пока нарушители проедут')}
+// else if (TrafficLights === 'yellow' && isRoadClear === false)
+//     console.log('жди')
+// else if (TrafficLights === 'yellow' && isRoadClear === true)
+//     console.log('все равно жди')
+// else if (TrafficLights === 'red' && isRoadClear === true)
+//     console.log('стой все равно')
+// else if (TrafficLights === 'red' && isRoadClear === false)
+//     console.log('стой и жди')
+// else {console.log('делай что хочешь')}
+
+
+
+
