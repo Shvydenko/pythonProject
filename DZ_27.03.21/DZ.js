@@ -7,18 +7,17 @@
 // let array = [ 1, 2, 3, 4, 5];
 // let array1 = ['one', 'two', 'three', 'four', 'five'];
 // let array2 = [6, 7, 8, 9, 10, 'six', 'seven', 'eight', 'nine', 'ten', true, false, true, false, true];
-// console.log(array)
-// console.log(array1)
-// console.log(array2)
+// console.log(array);
+// console.log(array1);
+// console.log(array2);
 
 
 // Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
 
 // let array = [true,null, undefined, false, [1,2,3,4,5,57], 'Shved'];
-//
-// console.log(array[0])
-// console.log(array[3])
-// console.log(array[4][3])
+// console.log(array[0]);
+// console.log(array[3]);
+// console.log(array[4][3]);
 
 
 // За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
@@ -35,7 +34,6 @@
 // list [8] = 'work';
 // list [9] = 'address';
 // list [10] = 'color';
-//
 // console.log(list);
 
 // for (let a = 0; a < 10; a++) {
@@ -50,65 +48,61 @@
 
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-// let list = ['one', 'two', 'three', 'four', 565, 565, 454]
-// let a = 0
+// let list = ['one', 'two', 'three', 'four', 565, 565, 454];
+// let a = 0;
 // while (a <= 20){
-//     document.write(`<h1>Довільний текст ${list}</h1>`)
-//     a++
+//     document.write(`<h1>Довільний текст ${list}</h1>`);
+//     a++;
 // }
 
 
 // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
-// let list = [12, 14, 132, 334, 1212, 12121, 1212, 1, 'one']
-//
-// a=0
+// let list = [12, 14, 132, 334, 1212, 12121, 1212, 1, 'one'];
+// a=0;
 // while (a <= 20){
-//     document.write(`<h1>Текст ${list}, ${a}</h1>`)
-//     a++
+//     document.write(`<h1>Текст ${list}, ${a}</h1>`);
+//     a++;
 // }
 
 
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
-// let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let items of list )
 // {console.log(items)}
 
 // Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
-// let list = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+// let list = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 // for (let items of list )
 // {console.log(items)}
 
 // Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
-// let list = [1, 2, 3, 4, 5, 'six', 'seven', 'eight', 'nine', 'ten']
+// let list = [1, 2, 3, 4, 5, 'six', 'seven', 'eight', 'nine', 'ten'];
 // for ( let a = 0; a <= list.length; a++ ){
-// console.log(list[a])
+// console.log(list[a]);
 // }
 
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
-// let list = [1, 2, 3, 4, true, 'string', null, undefined, {}, false ]
-// //
+// let list = [1, 2, 3, 4, true, 'string', null, undefined, {}, false ];
 // for ( let a=0; a <= 10 ; a++ )
 // if (typeof(list[a]) === "boolean" ){
-//     console.log(list[a])
+//     console.log(list[a]);
 // }
 // for ( let a=0; a <= 10 ; a++ )
 // if (typeof(list[a]) === "number" ){
-//     console.log(list[a])
+//     console.log(list[a]);
 // }
 // for ( let a=0; a <= 10 ; a++ )
 // if (typeof(list[a]) === "string" ){
-//     console.log(list[a])
+//     console.log(list[a]);
 // }
 
 
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
-
-// let array = []
-//
+// let array = [];
 // array[0] = 1;
 // array[1] = 2;
 // array[2] = 3;
@@ -118,37 +112,32 @@
 // array[6] = true;
 // array[7] = undefined;
 // array[8] = false;
-// array[9] = 'name'
-// array[10] = 234
-//
+// array[9] = 'name';
+// array[10] = 234;
 // for (let item of array){
-//     console.log(item)
+//     console.log(item);
 // }
 
 
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-
 // for (let i = 0; i < 10 ; i++  ){
-//     console.log([i])
-//     document.write(`<h5>Number of step</h5> ${i}`)
+//     console.log([i]);
+//     document.write(`<h5>Number of step</h5> ${i}`);
 // }
 
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-
 // for (let i = 0; i < 100 ; i++  ){
-//     console.log([i])
-//     document.write(`${i}`)
+//     console.log([i]);
+//     document.write(`${i}`);
 // }
 
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
-
 // for (let i = 0; i < 100 ; i= i + 2  ){
 //     console.log([i])
 //     document.write(`<h5>Number of step</h5> ${i}`)
 // }
 
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
-
 // for (let i = 10; i <= 100 ; i++  ){
 //     if ( i % 2 === 0){
 //     console.log([i])
@@ -157,7 +146,6 @@
 // }
 
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
-
 // for (let i = 0; i < 100; i++ ) {
 //     if (i % 2 === 1){
 //         console.log([i])
@@ -167,7 +155,6 @@
 
 
 // - Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
-
 // for (let a = 0; a <= 2; a++) {
 //     document.write(`<h1>minute</h1>${a}`)
 //     if (a === 2){
@@ -191,8 +178,8 @@
 // - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
 // let clock = '0:0:0'
 // for (let a = 0; a <= 2; a++) {
-//     for (let i = 0; i <= 20; i++){
-//         for (let k = 0; k <= 60 ; k++){
+//     for (let i = 0; i < 60; i++){
+//         for (let k = 0; k < 60 ; k++){
 //             if (clock === '2:20:0'){
 //                 break
 //             }
@@ -205,4 +192,133 @@
 
 
 
+// - Дан масив ['a', 'b', 'c']. Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу.
+// let a = ['a', 'b', 'c'];
+// for (let i = 3; i <= 5; i++){
+//     a[i] = i - 2;
+// }
+// console.log(a)
 
+// let a = ['a', 'b', 'c'];
+// for (let i = 1; i <= 3; i++){
+//     a.push(`${i}`);
+// }
+// console.log(a)
+
+
+// - Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1].
+// let a = [1, 2, 3];
+// a.push(3,2,1);
+// a.shift();
+// a.shift();
+// a.shift();
+// console.log(a);
+
+// - Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
+
+// const a = [1, 2, 3];
+// a.push(4, 5, 6);
+// alert(a);
+
+// - Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6.
+
+// let a = [1, 2, 3];
+// a.unshift(4,5,6);
+// alert(a);
+
+// - Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент за допомогою shift()
+
+// let language =['js', 'css', 'jq'];
+// let delJs = language.shift();
+// console.log(delJs);
+
+// - Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
+
+// let language =['js', 'css', 'jq'];
+// let delJq = language.pop();
+// console.log(delJq);
+
+// - Дан масив [1, 2, 3, 4, 5]. Перетворіть масив в [4, 5].
+// let a = [1, 2, 3, 4, 5];
+// for (let i = 0; i <= 2; i++ ){
+//     a.shift(i);
+// }
+// console.log(a)
+
+// - Дан масив [1, 2, 3, 4, 5]. Перетворіть масив в [1,2].
+// let a = [1, 2, 3, 4, 5];
+// for (let i = 2; i < 5; i++ ){
+//     a.pop(i);
+// }
+// console.log(a)
+
+// - Дан масив [1, 2, 3, 4, 5]. Зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
+//     Підказка. Необхідно стерти елементи, зберегти їх кудись. Дописати букви і після букв повернути стерті цифри
+// let a = [1, 2, 3, 4, 5];
+// a.splice(3,4, 'a','b','c',4,5);
+
+
+// - Дан масив [1, 2, 3, 4, 5]. Зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+//     Підказка. Працюйте по принципу задачі вище.
+// let a = [1, 2, 3, 4, 5];
+// a.splice(1,4, 'a','b');
+// a.push(2,3,4,'c',5,'e');
+// console.log(a);
+
+// - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
+
+// let a = [1,2,3,4,5,6,7,8,9,10];
+// for (let i=0; i<=10; i++){
+//     if (i%2===1){
+//         console.log(a[i]);
+//     }
+// }
+
+// - Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу та push () скопіювати значення одного масиву в інший
+
+// let a = [1,2,3,4,5,6,'a','b','c','d'];
+// let b = [];
+// for (let i = 0; i < a.length;i++){
+//     b.push(a[i]);
+//     console.log(b);
+// }
+// let i =0;
+// while (i < a.length) {
+//     b = a[i];
+//     i++;
+//     console.log(b);
+// }
+
+
+// - Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
+// let a = [1,2,3,4,5,6,'a','b','c','d'];
+// let b = [];
+// for (let i = 0; i < a.length; i++){
+//     b = a[i];
+//     console.log(b);
+// }
+
+// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+
+// let a =[ 'a', 'b', 'c'];
+// for (let i = 0; i < 1; i++){
+//     a[i] = 'a' + 'b' + 'c';
+//     console.log(a[i]);
+// }
+
+// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
+// let a =[ 'a', 'b', 'c'];
+// let b = "";
+// i = 0;
+// while (i < a.length){
+//     b = b + a[i];
+//     i++;
+// }
+// console.log(b);
+// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
+// let a = [ 'a', 'b', 'c'];
+// let d = "";
+// for (let index of a){
+//     d = d + index
+// }
+// console.log(d)
