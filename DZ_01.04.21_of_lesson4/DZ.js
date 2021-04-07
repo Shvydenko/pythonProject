@@ -112,16 +112,16 @@
 
 //  function keys(sum) {
 //      let array = [{name: 'Dima', age: 13}, {model: 'Camry', married: true,home:'flat'}]
-//      let array1 = []
+//      let array1 = [];
 //      for (let i = 0; i <= 1; i++) {
 //         sum = array[i]
-//          for (let max in sum){
-//              array1.push(max)
+//          for (let j in sum){
+//              array1.push(j)
 //          }
 //      }
-//      return array1
+//      return array1;
 //  }
-//  let a = keys()
+//  let a = keys();
 // console.log(a)
 
 // 10) Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
@@ -142,6 +142,19 @@
 //  }
 //  let a = keys()
 // console.log(a)
+
+// function keys() {
+//     let array = [{name: 'Dima', age: 13}, {model: 'Camry', married: true,home:'flat'}]
+//      let First = []
+// for (let i of array){
+//     for (let key in i){
+// First.push(i[key])
+//     }
+// }
+//     return First
+//  }
+//  let b = keys()
+// console.log(b);
 
 
 // function keys(sum,sum1) {
@@ -179,9 +192,10 @@
 //       c = one[i] + second[i]
 //         third.push(c)
 //     }
-//     console.log(third)
+//     return third
 // }
-// sum()
+// let b = sum()
+// console.log(b);
 
 // let sum = (c)=> {
 //     let one = [678, 34, 34, 23, 22, 67,98];
@@ -197,40 +211,69 @@
 
 
 
-// Ще не зробив це дз
-// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
+// - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено); ?
 
-// let numbers = (min,max)=> {
-//     min = 1/0;
-//     max = 0;
-//     let num = [1,2,3,4,5,6,7,7,8,7,45]
-//     for (let i=0; i < num.length; i++){
-//         if ( num[i] < min){
-//             min = num[i]
-//         }
-//         if (num[i] > max){
-//             max = num[i]
-//         }
-//     }
-//     return max
-// }
-// let b = numbers()
-// console.log(b)
 // - Взяти задачі з завдання 10 та 9 та обєднати їх в одну динамічну функцію.
 //   Що б я міг сам вибрати повернути мені масив ключів чи масив значень.
+// function all (one,two){
+// let array = [{name: 'Dima', age: 13}, {model: 'Camry', married: true,home:'flat'}];
+//     let arrayNew = [];
+//     if(one === true) {
+//         for (let obj of array) {
+//             for (let key in obj) {
+// arrayNew.push(obj[key])
+//             }
+//         }
+//     } else
+//             {for (let obj of array) {
+//             for (let key in obj) {
+//             arrayNew.push(key)
+//             }
+//         }
+//     }
+//     return arrayNew
+// }
+// let n = all(false)
+// console.log(n);
+
 // - Приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
 //   EXAMPLE:
 //   foo([9,8,0,4], 0) // ==> [ 8, 9, 0, 4 ]
 //   foo([9,8,0,4], 1) // ==> [ 9 ,0, 8, 4 ]
 //   foo([9,8,0,4], 2) // ==> [ 9, 8, 4, 0 ]
-//
+
+// function revers (){
+//     let a = [9,8,0,4];
+//     for (let i = 0; i < a.length; i++){
+//         if
+//     }
+// }
+
+
+
 // - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
 // EXAMPLE:
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
-//
+
+// function zero() {
+//     let d = [1,2,3,4,'0',5,0,7,8,0,8,9,0,8,6,5,4,3,2,0,9,8,7,6,8,9,0,0,6,7,8,94,5,5,3,43,42,3,2,3,'9']
+//     let s = []
+//     for (let i = d.length -1; i >= 0; i--) {
+//         if (d[i] != '0' || d[i] != 0){
+//             s.unshift(d[i])
+//         }
+//         else if(d[i]== 0 || d[i] == '0'){
+//             s.push(d[i])
+//         }
+//         }
+//     console.log(s);
+// }
+// zero()
+
+
 // - Дано список імен.
 // let n1 = '    Harry       Potter      '
 // let n2 = '    Ron       Whisley      '
