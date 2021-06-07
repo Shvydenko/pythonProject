@@ -1,0 +1,10 @@
+.dropbtn {background: #f8e300;
+    width: 140px;
+    height: 50px;
+    color: #076600;
+}
+
+.dropdown-content {background: aliceblue;
+    width: 140px;
+    height: 150px;
+}
